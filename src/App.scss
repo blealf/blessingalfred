@@ -1,0 +1,49 @@
+:root {
+  --section-bg: rgb(38, 38, 38);;
+  --primary-color: rgb(18, 180, 180);
+  --secondary-color: rgb(238, 209, 133);
+  --text-color: rgb(180,180,180);
+}
+
+.app {
+  // background: rgb(21, 21, 21);
+  background: linear-gradient(
+    45deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  min-height: 100vh;
+  padding: calc(100vw * 0.03);
+}
+.main-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+}
+.header {
+  display: flex;
+  ul {
+    margin-top: 0;
+    display: flex;
+    background: var(--section-bg);
+    border-radius: 10px;
+    margin-left: auto;
+    max-width: 500px;
+    padding: 5px 15px;;
+    list-style: none;
+    li {
+      color: var(--text-color);
+      padding: 15px;
+      font-size: 18px;
+      font-weight: 600
+    }
+  }
+}
+
+.main {
+  background: var(--section-bg);
+  border-radius: 10px;
+  min-height: 100vh;
+}
+

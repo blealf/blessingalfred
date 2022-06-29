@@ -1,0 +1,94 @@
+.side-bar-wrapper {
+  position: relative;
+}
+.side-bar {
+  position: fixed;
+  min-height: 80vh;
+  min-width: 240px;
+  background: rgb(38, 38, 38);
+  padding: 30px;
+  padding-top: 55px;
+  border-radius: 10px;
+  border: 1px solid rgb(57, 57, 57);
+  color: rgb(220, 220, 220);
+}
+.side-bar-header {
+  border-bottom: 1px solid rgba(180, 180, 180, 0.4);
+  padding-bottom: 40px;
+}
+.profile-pic {
+  width: 130px;
+  margin: 0 auto;
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+.name {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: rgb(238, 209, 133);
+  background-image: linear-gradient(
+    45deg,
+    rgb(18, 180, 180),
+    rgb(238, 209, 133)
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.role {
+  text-align: center;
+  padding: 5px 10px;
+  /* background: rgb(52, 52, 52); */
+  background: linear-gradient(45deg, rgb(18, 180, 180), rgb(238, 209, 133));
+  color: rgb(57, 57, 57);
+  border-radius: 5px;
+  max-width: 110px;
+  margin: 0 auto;
+  box-shadow: 0px 2px 5px rgb(57, 57, 57);
+  border: 1px solid rgba(18, 180, 180, 0.3);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.side-bar-links {
+  padding-top: 40px;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      margin-bottom: 30px;
+      display: flex;
+      .link-icon {
+        color:rgb(18, 180, 180);
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -1px -2px 5px rgb(100,100,100);
+        margin-right: 20px;
+      }
+      p {
+        margin: 0;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+      a {
+        color: rgb(180, 180, 180);
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+}
