@@ -1,0 +1,22 @@
+<svg width="320" height="226" viewBox="0 0 320 226" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <path d="M145.482 190H177.858L183 222H139L145.482 190Z" fill="#B8B8B8"/>
+  <rect x="0.5" y="0.5" width="319" height="192" rx="4.5" fill="#D9D9D9" stroke="#747474"/>
+  <mask id="path-3-inside-1_24_93" fill="white">
+    <path d="M0 5C0 2.23857 2.23858 0 5 0H315C317.761 0 320 2.23858 320 5V162H0V5Z"/>
+  </mask>
+  <path d="M0 5C0 2.23857 2.23858 0 5 0H315C317.761 0 320 2.23858 320 5V162H0V5Z" fill="#D9D9D9" stroke="#323232" stroke-width="18" mask="url(#path-3-inside-1_24_93)"/>
+  <circle cx="160" cy="176" r="7" fill="#323232"/>
+  <path d="M98 222H223V226H98V222Z" fill="#B8B8B8"/>
+  <rect x="153" y="9" width="159" height="144" fill="#93B7CC"/>
+  <rect x="153" y="9" width="159" height="10" fill="#456272"/>
+  <circle cx="158" cy="14" r="2" fill="#A24343"/>
+  <circle cx="164" cy="14" r="2" fill="#A6A129"/>
+  <circle cx="170" cy="14" r="2" fill="#2B9D52"/>
+  <rect x="8" y="9" width="145" height="144" fill="#F5E0E0"/>
+  <rect x="26" y="26" width="105" height="116" rx="5" fill="#D9D9D9"/>
+  <path d="M26 31C26 28.2386 28.2386 26 31 26H126C128.761 26 131 28.2386 131 31V38H26V31Z" fill="#ABABAB"/>
+  <circle cx="33" cy="32" r="2" fill="#A24343"/>
+  <circle cx="39" cy="32" r="2" fill="#A6A129"/>
+  <circle cx="45" cy="32" r="2" fill="#2B9D52"/>
+</svg>

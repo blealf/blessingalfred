@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: var(--font-body), system-ui, sans-serif;
+    background-color: hsl(var(--color-bg) / 1);
+    color: hsl(var(--color-text) / 1);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  img,
+  picture,
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--color-accent) / 1);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+:root {
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-bg: 222 47% 6%;
+  --color-bg-elevated: 222 42% 10%;
+  --color-text: 210 40% 96%;
+  --color-text-muted: 215 20% 65%;
+  --color-accent: 38 92% 58%;
+  --color-accent-soft: 38 85% 70%;
+  --color-border: 217 25% 22%;
+
+  --fluid-xs: clamp(0.75rem, 0.7rem + 0.2vw, 0.875rem);
+  --fluid-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+  --fluid-base: clamp(1rem, 0.92rem + 0.4vw, 1.125rem);
+  --fluid-lg: clamp(1.125rem, 1rem + 0.55vw, 1.35rem);
+  --fluid-xl: clamp(1.35rem, 1.1rem + 0.9vw, 1.75rem);
+  --fluid-2xl: clamp(1.75rem, 1.35rem + 1.4vw, 2.25rem);
+  --fluid-3xl: clamp(2.25rem, 1.5rem + 2.5vw, 3.5rem);
+  --fluid-4xl: clamp(2.75rem, 1.75rem + 3.5vw, 4.5rem);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.gradient-border-mask {
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  padding: 1px;
+}
