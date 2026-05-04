@@ -169,7 +169,7 @@ export const CONTENT = {
         'Cross-platform learning product spanning responsive web, mobile, and desktop with real-time collaboration.',
       techs: ['Next.js', 'NestJS', 'TypeScript', 'React Native', 'Electron', 'AI'],
       link: 'https://app.wetuli.com',
-      imageSrc: wetuliDesktop,
+      // imageSrc: wetuliDesktop,
     },
     {
       id: 'sikabox',
