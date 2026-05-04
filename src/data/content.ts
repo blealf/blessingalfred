@@ -27,7 +27,8 @@ export const OWNER = {
   phone: '+234 803 982 9130',
   linkedin: 'https://linkedin.com/in/blealf',
   github: 'https://github.com/blealf',
-  portfolio: 'https://blessing-alfred.netlify.app',
+  portfolio: 'https://blessingalfred.vercel.app',
+  resume: 'https://blessingalfred.vercel.app/resume.pdf',
   location: 'Lagos, Nigeria',
   availability: 'Available immediately for remote roles (UK, EU, US)',
 } as const

@@ -45,6 +45,15 @@ export default function Footer() {
           >
             Portfolio
           </a>
+          <a
+            href={CONTENT.owner.resume}
+            target="_blank"
+            rel="noreferrer"
+            data-cursor="hover"
+            className="text-muted transition-colors hover:text-accent"
+          >
+            Resume
+          </a>
         </div>
       </div>
       <p className="mx-auto mt-10 max-w-6xl font-mono text-xs text-muted">
